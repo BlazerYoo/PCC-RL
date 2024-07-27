@@ -2,7 +2,7 @@
 mkdir networks
 cd networks
 git init
-conda create -n networks python=3.7
+conda create -n networks python=3.6
 
 # Set up packages
 echo Jinja2==2.11.3 > requirements.txt
